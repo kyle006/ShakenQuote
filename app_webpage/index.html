@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShakenQuote – Motivation per Shake</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <style>
+  .download h2 {
+  margin-bottom: 1.5rem; /* Increased from default */
+}
+
+.download p {
+  margin-bottom: 2.5rem; /* Increased space before button */
+}@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --accent: #41c3a8;
+  --accent-hover: #34a68f;
+  --light-bg: #f8fafc;
+  --card-bg: #ffffff;
+  --text: #333333;
+  --text-light: #666666;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--light-bg);
+  color: var(--text);
+}
+
+.header {
+  background: #2c3e50;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.header img {
+  width: 120px;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.header img:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.header h1 {
+  font-size: 3.5rem;
+  color: white;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.3rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.content-box {
+  background-color: var(--card-bg);
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  margin-top: 4rem;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.app-screenshot {
+  text-align: center;
+  width: 100%;
+}
+
+.app-screenshot img {
+  width: 100%;
+  max-width: 750px; /* Increased size from 600px to 750px */
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  display: block;
+  margin: 0 auto;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.feature-card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  text-align: center;
+  max-width: 450px; /* Increased from 350px */
+}
+
+.feature-card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem; /* Increased text size */
+}
+
+.feature-card p {
+  font-size: 1.2rem; /* Increased text size */
+  line-height: 1.6;
+}
+
+.download {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: linear-gradient(to right, #f6f9fc, #eef1f5);
+  border-radius: 20px;
+  margin-top: 4rem;
+}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  background: var(--accent);
+  color: white;
+  padding: 1rem 2.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  background: var(--accent-hover);
+  transform: translateY(-5px);
+}
+
+.download-btn i {
+  margin-right: 10px;
+}
+
+footer {
+  background: #2c3e50;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 3rem 0 1.5rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.footer-about h3 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.footer-about p {
+  margin-bottom: 2rem;
+}
+
+.copyright {
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.9rem;
+}
+
+/* Simple responsive adjustments */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .content-box {
+    padding: 2rem;
+  }
+}
+  </style>
+</head>
+<body>
+  <main>
+    <section class="header">
+      <div class="logo-container">
+        <img src="assets/icon/ShakenQuoteLogo.png" alt="ShakenQuote Logo" />
+        <h1>ShakenQuote</h1>
+        <p>Deine tägliche Dosis Inspiration – einfach durch Schütteln</p>
+      </div>
+    </section>
+    
+    <div class="main-content">
+      <section class="content-box">
+        <div class="content-container">
+          <div class="app-screenshot">
+            <img src="assets/screenshots/640shots_so.png" alt="Screenshots der ShakenQuote App">
+          </div>
+        </div>
+        
+        <section class="features">
+          <div class="feature-card">
+            <div class="feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square-quote-icon lucide-message-square-quote"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 12a2 2 0 0 0 2-2V8H8"/><path d="M14 12a2 2 0 0 0 2-2V8h-2"/></svg>
+            </div>
+            <h3>Shake & Quote</h3>
+            <p>Schüttle dein Handy oder tippe auf den Bildschirm, um ein neues inspirierendes Zitat zu erhalten.</p>
+          </div>
+        </section>
+        
+        <section class="download">
+          <h2>Hol dir ShakenQuote</h2>
+          <p>Lade die App jetzt herunter und entdecke täglich neue inspirierende Zitate. Kostenlos, werbefrei und einfach zu bedienen.</p>
+          <a href="ShakenQuote.apk" download class="download-btn">
+            <i class="fas fa-download"></i> APK herunterladen
+          </a>
+        </section>
+      </section>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="footer-content">
+      <div class="footer-about">
+        <h3>Über ShakenQuote</h3>
+        <p>ShakenQuote wurde entwickelt, um Menschen durch die zeitlose Weisheit grosser Denker zu inspirieren und zu motivieren. Unser Ziel ist es, jeden Tag ein bisschen besser zu machen.</p>
+    </div>
+    
+    <div class="copyright">
+      &copy; 2025 ShakenQuote – Deine tägliche Dosis Motivation.
+    </div>
+  </footer>
+</body>
+</html>
