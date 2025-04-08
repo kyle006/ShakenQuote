@@ -2,6 +2,14 @@
 
 Wir verbringen zu viel Zeit auf der Suche nach Motivation und Inspiration. **ShakenQuote** bietet eine einfache, aber kraftvolle Lösung: Eine minimalistische App, die dir inspirierende Zitate liefert - mit einem einfachen Schütteln deines Smartphones.
 
+## 📥 APK herunterladen
+
+Lade die App direkt herunter und installiere sie auf deinem Android-Gerät:
+
+- [📥 APK herunterladen](https://github.com/kyle006/ShakenQuote/tree/main/app_webpage/assets/apk)
+
+---
+
 Statt komplizierter Menüs und ablenkender Elemente konzentriert sich ShakenQuote auf das Wesentliche: Das Zitat und du. Mit jedem Shake erhältst du eine neue Perspektive, einen neuen Gedanken, der dich durch den Tag begleitet.
 
 Die App ist bewusst einfach gehalten: Keine Werbung, keine Ablenkungen, keine unnötigen Features – nur Weisheiten, die dich inspirieren und motivieren.
