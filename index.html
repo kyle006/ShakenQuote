@@ -92,11 +92,17 @@ body {
 
 .app-screenshot img {
   width: 100%;
-  max-width: 750px; /* Increased size from 600px to 750px */
+  max-width: 800px; 
   border-radius: 24px;
   box-shadow: var(--shadow);
   display: block;
   margin: 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.app-screenshot img:hover {
+  transform: scale(1.3); 
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2); 
 }
 
 .features {
@@ -197,7 +203,7 @@ footer {
   <main>
     <section class="header">
       <div class="logo-container">
-        <img src="assets/icon/ShakenQuoteLogo.png" alt="ShakenQuote Logo" />
+        <img src="app_webpage/assets/icon/ShakenQuoteLogo.png" alt="ShakenQuote Logo" />
         <h1>ShakenQuote</h1>
         <p>Deine tägliche Dosis Inspiration – einfach durch Schütteln</p>
       </div>
@@ -207,7 +213,7 @@ footer {
       <section class="content-box">
         <div class="content-container">
           <div class="app-screenshot">
-            <img src="assets/screenshots/640shots_so.png" alt="Screenshots der ShakenQuote App">
+            <img src="app_webpage/assets/screenshots/640shots_so.png" alt="Screenshots der ShakenQuote App">
           </div>
         </div>
         
@@ -224,7 +230,7 @@ footer {
         <section class="download">
           <h2>Hol dir ShakenQuote</h2>
           <p>Lade die App jetzt herunter und entdecke täglich neue inspirierende Zitate. Kostenlos, werbefrei und einfach zu bedienen.</p>
-          <a href="ShakenQuote.apk" download class="download-btn">
+          <a href="app_webpage/assets/apk/" download class="download-btn">
             <i class="fas fa-download"></i> APK herunterladen
           </a>
         </section>
